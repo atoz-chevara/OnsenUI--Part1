@@ -60,7 +60,7 @@
       <div class="center">Onsen UI App</div>
       <div class="right">
 
-        <ons-icon icon="ion-plus-circled" size="40px"</ons-icon>
+        <ons-icon icon="ion-plus-circled" size="40px" onclick="myNavigator.pushPage('register.html', { animation : 'slide' } )"></ons-icon>
 
       </div>
 </ons-toolbar>
